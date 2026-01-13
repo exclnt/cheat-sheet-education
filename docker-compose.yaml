@@ -19,13 +19,14 @@ services:
 
   mysql:
     image: mysql:lts
+    container_name: mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: app_db
       MYSQL_USER: app_user
       MYSQL_PASSWORD: secret
     volumes:
-      - ./mysql:/var/lib/mysql
+      - mysql_data:/var/lib/mysql
     ports:
       - "3306:3306"
 
@@ -39,3 +40,6 @@ services:
       PMA_PASSWORD: root
     depends_on:
       - mysql
+
+volumes:
+  mysql_data:
