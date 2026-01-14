@@ -32,27 +32,26 @@ This project provides an instant web development environment using Docker with t
 3. **Create Nginx configuration** (`nginx/default.conf`):
    ```nginx
    server {
-       listen 80;
-       index index.php index.html;
-       server_name localhost;
-       error_log  /var/log/nginx/error.log;
-       access_log /var/log/nginx/access.log;
-       root /var/www/html;
+    listen 80;
+    server_name localhost;
+    root /var/www/html;
 
-       location / {
-           try_files $uri $uri/ /index.php?$query_string;
-       }
+    index index.php index.html;
 
-       location ~ \.php$ {
-           try_files $uri =404;
-           fastcgi_split_path_info ^(.+\.php)(/.+)$;
-           fastcgi_pass php:9000;
-           fastcgi_index index.php;
-           include fastcgi_params;
-           fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-           fastcgi_param PATH_INFO $fastcgi_path_info;
-       }
-   }
+    autoindex on;              
+    autoindex_exact_size off;
+    autoindex_localtime on;   
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location ~ \.php$ {
+        include fastcgi_params;
+        fastcgi_pass php:9000;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    }
    ```
 
 4. **Start containers**:
