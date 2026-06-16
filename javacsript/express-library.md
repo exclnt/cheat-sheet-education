@@ -82,6 +82,7 @@ app.get("/", (req, res) => {
 });
 
 app.listen(3000);
+ !  ~/c/blog   *~±       
 ```
 
  **Penjelasan**: Tanpa `cors`, API tidak bisa diakses oleh frontend yang berbeda domain.
