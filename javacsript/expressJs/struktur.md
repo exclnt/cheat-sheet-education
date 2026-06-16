@@ -1,10 +1,10 @@
-# 📘 Express.js API Starter
+#  Express.js API Starter
 
 Ini adalah struktur proyek API menggunakan Express.js yang disusun dengan arsitektur modular. Cocok untuk REST API yang rapi, scalable, dan mudah dipelihara.
 
 ---
 
-## 📁 Struktur Folder
+##  Struktur Folder
 ```
 project-api/
 ├── node_modules/
@@ -24,8 +24,8 @@ project-api/
 ---
 
 
-## 🧱 Penjelasan Folder
-### ✅ controllers/
+##  Penjelasan Folder
+###  controllers/
 Berisi logika bisnis untuk setiap route.
 
 Contoh: userController.js
@@ -35,7 +35,7 @@ exports.getAllUsers = (req, res) => {
   res.send('Semua user');
 };
 ```
-### ✅ routes/
+###  routes/
 Berisi definisi endpoint dan hubungkan ke controller.
 
 Contoh: userRoutes.js
@@ -50,7 +50,7 @@ router.post('/', userController.createUser);
 
 module.exports = router;
 ```
-### ✅ models/
+###  models/
 Berisi skema data dan model database.
 
 Contoh: User.js
@@ -65,7 +65,7 @@ const userSchema = new mongoose.Schema({
 
 module.exports = mongoose.model('User', userSchema);
 ```
-### ✅ middlewares/
+###  middlewares/
 Berisi middleware seperti autentikasi, validasi, dan error handler.
 
 Contoh: authMiddleware.js
@@ -80,7 +80,7 @@ module.exports = (req, res, next) => {
   }
 };
 ```
-### ✅ config/
+###  config/
 Berisi konfigurasi database, environment, dan lainnya.
 
 Contoh: db.js
@@ -93,10 +93,10 @@ const connectDB = async () => {
 };
 module.exports = connectDB;
 ```
-### ✅ utils/
+###  utils/
 Berisi fungsi bantu seperti token generator, hashing, dsb.
 
-### ✅ app.js
+###  app.js
 Mengatur middleware global, parsing body, dan routing utama.
 
 ```js
@@ -117,7 +117,7 @@ app.use(errorHandler);
 
 module.exports = app;
 ```
-### ✅ server.js
+###  server.js
 Menjalankan server dan koneksi ke database.
 
 ```js

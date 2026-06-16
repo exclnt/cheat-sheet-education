@@ -181,7 +181,7 @@ import app from './app.js';
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`🚀 Server jalan di http://localhost:${PORT}`);
+  console.log(` Server jalan di http://localhost:${PORT}`);
 });
 ```
 
@@ -380,7 +380,7 @@ POST /api/auth/refresh-token
 
 ---
 
-## 🧪 Saran Penyimpanan Token (di Frontend)
+##  Saran Penyimpanan Token (di Frontend)
 
 | Token         | Disimpan di                                      |
 | --------------- | -------------------------------------------------- |

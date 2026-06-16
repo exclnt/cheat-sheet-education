@@ -1,15 +1,15 @@
-# 📘 **Belajar Express.js Dasar**
+#  **Belajar Express.js Dasar**
 
 Express.js adalah framework web untuk Node.js yang cepat, ringan, dan fleksibel. Cocok digunakan untuk membangun REST API maupun aplikasi web.
 
 #### Daftar Isi
 
-* [strukter project](./struktur.md)
-* [Library](./library.md)
+* [strukter project](struktur.md)
+* [Library](library.md)
 
 ---
 
-## 🛠️ Persiapan
+##  Persiapan
 
 ### 1. Instal Node.js
 
@@ -24,7 +24,7 @@ npm init -y
 npm install express
 ```
 
-🚀 Hello World Express
+ Hello World Express
 
 ```js
 
@@ -41,7 +41,7 @@ app.listen(port, () => {
 });
 ```
 
-## 📦 Paket Tambahan Penting
+##  Paket Tambahan Penting
 
 ### 1. morgan – Logging Request
 
@@ -125,7 +125,7 @@ app.post('/user', (req, res) => {
 });
 ```
 
-📂 Struktur Project Sederhana
+ Struktur Project Sederhana
 pgsql
 
 ```
@@ -136,7 +136,7 @@ belajar-express/
 ├── package.json
 ```
 
-✅ Contoh Route Tambahan
+ Contoh Route Tambahan
 
 ```js
 app.get('/about', (req, res) => {
@@ -152,7 +152,7 @@ app.get('/search', (req, res) => {
 });
 ```
 
-### 📚 Referensi
+###  Referensi
 
 Express.js Official Docs,
 Node.js,

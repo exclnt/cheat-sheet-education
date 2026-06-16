@@ -1,10 +1,10 @@
-# 🐳 Docker Command Cheat Sheet
+#  Docker Command Cheat Sheet
 
 Dokumentasi ringkas perintah dasar Docker untuk membantu pengembangan dan deployment container secara efisien.
 
 ---
 
-## 🔹 1. Docker Dasar
+##  1. Docker Dasar
 
 | Perintah | Deskripsi |
 |----------|-----------|
@@ -14,7 +14,7 @@ Dokumentasi ringkas perintah dasar Docker untuk membantu pengembangan dan deploy
 
 ---
 
-## 🔹 2. Docker Image
+##  2. Docker Image
 
 | Perintah | Deskripsi |
 |----------|-----------|
@@ -25,7 +25,7 @@ Dokumentasi ringkas perintah dasar Docker untuk membantu pengembangan dan deploy
 
 ---
 
-## 🔹 3. Docker Container
+##  3. Docker Container
 
 | Perintah | Deskripsi |
 |----------|-----------|
@@ -43,7 +43,7 @@ Dokumentasi ringkas perintah dasar Docker untuk membantu pengembangan dan deploy
 
 ---
 
-## 🔹 4. Docker Volume & Network
+##  4. Docker Volume & Network
 
 ### Volume
 | Perintah | Deskripsi |
@@ -62,7 +62,7 @@ Dokumentasi ringkas perintah dasar Docker untuk membantu pengembangan dan deploy
 
 ---
 
-## 🔹 5. Docker Compose
+##  5. Docker Compose
 
 | Perintah | Deskripsi |
 |----------|-----------|
@@ -75,12 +75,12 @@ Dokumentasi ringkas perintah dasar Docker untuk membantu pengembangan dan deploy
 
 ---
 
-## 📚 Referensi Resmi
+##  Referensi Resmi
 
 - [Docker CLI Reference](https://docs.docker.com/engine/reference/commandline/docker/)
 - [Docker Compose CLI Reference](https://docs.docker.com/compose/reference/)
 
 ---
 
-> 📝 Tips: Simpan file ini sebagai `README.md` dalam folder dokumentasi proyekmu atau sebagai catatan pribadi.
+>  Tips: Simpan file ini sebagai `README.md` dalam folder dokumentasi proyekmu atau sebagai catatan pribadi.
 

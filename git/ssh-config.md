@@ -8,19 +8,19 @@ Dengan SSH, kamu bisa **login, mengontrol, dan transfer data** ke komputer lain 
 
 ## Fungsi SSH
 
-* 🔐 **Akses Jarak Jauh (Remote Login)**
+*  **Akses Jarak Jauh (Remote Login)**
 
   Bisa masuk ke server dari mana aja tanpa harus berada di lokasi fisik.
-* 💻 **Menjalankan Perintah di Server**
+*  **Menjalankan Perintah di Server**
 
   Kamu bisa mengelola server (misalnya update, install software, setting aplikasi).
-* 📂 **Transfer File Aman**
+*  **Transfer File Aman**
 
   Bisa kirim dan ambil file lewat `scp` atau `sftp`.
-* 🔑 **Autentikasi dengan SSH Key**
+*  **Autentikasi dengan SSH Key**
 
   Menggunakan kunci enkripsi (public & private key) supaya lebih aman daripada password.
-* 🔄 **Integrasi dengan Tools Developer**
+*  **Integrasi dengan Tools Developer**
 
   Contoh: GitHub/GitLab pakai SSH biar kamu bisa push & pull code tanpa harus masukin password tiap kali.
 

@@ -1,4 +1,4 @@
-Framer Motion, sebuah library animasi untuk React yang sangat populer karena sintaksnya simpel dan powerful. Kalau kamu mau belajar, aku kasih step-by-step biar gampang diikuti 👇
+Framer Motion, sebuah library animasi untuk React yang sangat populer karena sintaksnya simpel dan powerful. Kalau kamu mau belajar, aku kasih step-by-step biar gampang diikuti 
 
 ## 1. Install Framer Motion
 
@@ -23,7 +23,7 @@ export default function Example() {
       transition={{ duration: 1 }}   // durasi animasi
       className="p-6 bg-blue-500 text-white rounded-lg"
     >
-      Hello Motion 👋
+      Hello Motion 
     </motion.div>
   );
 }
@@ -43,7 +43,7 @@ const boxVariant = {
   animate="visible"
   transition={{ duration: 0.5 }}
 >
-  Variants Example 🚀
+  Variants Example 
 </motion.div>
 ```
 ## 4. Animasi Hover & Tap

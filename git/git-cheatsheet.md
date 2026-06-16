@@ -1,10 +1,10 @@
-# 📘 Git Command Cheat Sheet
+#  Git Command Cheat Sheet
 
 Dokumen ini merupakan rangkuman perintah Git yang umum digunakan, disusun berdasarkan fungsi dan kategori untuk memudahkan pemahaman dan penggunaan Git dalam pengelolaan proyek versi kontrol.
 
 ---
 
-## 📂 1. Konfigurasi Awal
+##  1. Konfigurasi Awal
 
 | Perintah                                       | Penjelasan                                           |
 |-----------------------------------------------|------------------------------------------------------|
@@ -15,7 +15,7 @@ Dokumen ini merupakan rangkuman perintah Git yang umum digunakan, disusun berdas
 
 ---
 
-## 📁 2. Inisialisasi & Repository
+##  2. Inisialisasi & Repository
 
 | Perintah               | Penjelasan                                                   |
 |------------------------|--------------------------------------------------------------|
@@ -24,7 +24,7 @@ Dokumen ini merupakan rangkuman perintah Git yang umum digunakan, disusun berdas
 
 ---
 
-## 🗂️ 3. Status & Informasi
+##  3. Status & Informasi
 
 | Perintah                | Penjelasan                                                  |
 |-------------------------|-------------------------------------------------------------|
@@ -35,7 +35,7 @@ Dokumen ini merupakan rangkuman perintah Git yang umum digunakan, disusun berdas
 
 ---
 
-## 🧾 4. Menambahkan & Commit Perubahan
+##  4. Menambahkan & Commit Perubahan
 
 | Perintah                     | Penjelasan                                                       |
 |-----------------------------|------------------------------------------------------------------|
@@ -46,7 +46,7 @@ Dokumen ini merupakan rangkuman perintah Git yang umum digunakan, disusun berdas
 
 ---
 
-## 🔄 5. Branching & Merging
+##  5. Branching & Merging
 
 | Perintah                      | Penjelasan                                                       |
 |-------------------------------|------------------------------------------------------------------|
@@ -59,7 +59,7 @@ Dokumen ini merupakan rangkuman perintah Git yang umum digunakan, disusun berdas
 
 ---
 
-## 🔁 6. Remote Repository
+##  6. Remote Repository
 
 | Perintah                                | Penjelasan                                                           |
 |-----------------------------------------|----------------------------------------------------------------------|
@@ -72,7 +72,7 @@ Dokumen ini merupakan rangkuman perintah Git yang umum digunakan, disusun berdas
 
 ---
 
-## 📌 7. Undo / Reset
+##  7. Undo / Reset
 
 | Perintah                         | Penjelasan                                                              |
 |----------------------------------|-------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Dokumen ini merupakan rangkuman perintah Git yang umum digunakan, disusun berdas
 
 ---
 
-## 🧪 8. Stashing (Simpan Sementara)
+##  8. Stashing (Simpan Sementara)
 
 | Perintah                    | Penjelasan                                                  |
 |-----------------------------|-------------------------------------------------------------|
@@ -95,7 +95,7 @@ Dokumen ini merupakan rangkuman perintah Git yang umum digunakan, disusun berdas
 
 ---
 
-## 🧹 9. Pembersihan & Lain-lain
+##  9. Pembersihan & Lain-lain
 
 | Perintah                          | Penjelasan                                                 |
 |-----------------------------------|------------------------------------------------------------|
@@ -105,7 +105,7 @@ Dokumen ini merupakan rangkuman perintah Git yang umum digunakan, disusun berdas
 
 ---
 
-## 📚 Tips Tambahan
+##  Tips Tambahan
 
 - Gunakan file `.gitignore` untuk mengecualikan file atau folder dari version control.
 - Gunakan `git reflog` untuk melihat histori referensi commit, termasuk commit yang sudah di-reset.
@@ -113,7 +113,7 @@ Dokumen ini merupakan rangkuman perintah Git yang umum digunakan, disusun berdas
 
 ---
 
-## 📎 Referensi
+##  Referensi
 
 - [Pro Git Book (Free)](https://git-scm.com/book/en/v2)
 - [GitHub Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
@@ -121,4 +121,4 @@ Dokumen ini merupakan rangkuman perintah Git yang umum digunakan, disusun berdas
 
 ---
 
-> Dokumentasi ini bisa kamu kontribusikan, duplikasi, atau cetak untuk keperluan belajar. Semoga membantu! 🚀
+> Dokumentasi ini bisa kamu kontribusikan, duplikasi, atau cetak untuk keperluan belajar. Semoga membantu! 

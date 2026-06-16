@@ -30,7 +30,7 @@ Middleware adalah inti dari Express. Banyak library yang bisa digunakan untuk me
 
 ### 1.1 `morgan`
 
-📌 **Fungsi**: Logging HTTP request (monitoring request masuk ke server).
+ **Fungsi**: Logging HTTP request (monitoring request masuk ke server).
 
 ```bash
 npm install morgan
@@ -52,7 +52,7 @@ app.get("/", (req, res) => {
 app.listen(3000);
 ```
 
-💡 **Penjelasan**:
+ **Penjelasan**:
 
 * `dev`: Format log singkat untuk development.
 * Ada format lain: `combined`, `tiny`, dll.
@@ -61,7 +61,7 @@ app.listen(3000);
 
 ### 1.2 `cors`
 
-📌 **Fungsi**: Mengizinkan akses dari domain berbeda (Cross-Origin Resource Sharing).
+ **Fungsi**: Mengizinkan akses dari domain berbeda (Cross-Origin Resource Sharing).
 
 ```bash
 npm install cors
@@ -84,13 +84,13 @@ app.get("/", (req, res) => {
 app.listen(3000);
 ```
 
-💡 **Penjelasan**: Tanpa `cors`, API tidak bisa diakses oleh frontend yang berbeda domain.
+ **Penjelasan**: Tanpa `cors`, API tidak bisa diakses oleh frontend yang berbeda domain.
 
 ---
 
 ### 1.3 `helmet`
 
-📌 **Fungsi**: Menambahkan header keamanan HTTP.
+ **Fungsi**: Menambahkan header keamanan HTTP.
 
 ```bash
 npm install helmet
@@ -112,13 +112,13 @@ app.get("/", (req, res) => {
 app.listen(3000);
 ```
 
-💡 **Penjelasan**: Menambahkan header seperti `X-Content-Type-Options` dan `Content-Security-Policy` untuk mencegah serangan umum.
+ **Penjelasan**: Menambahkan header seperti `X-Content-Type-Options` dan `Content-Security-Policy` untuk mencegah serangan umum.
 
 ---
 
 ### 1.4 `compression`
 
-📌 **Fungsi**: Mengompres response untuk mempercepat transfer data.
+ **Fungsi**: Mengompres response untuk mempercepat transfer data.
 
 ```bash
 npm install compression
@@ -140,7 +140,7 @@ app.get("/", (req, res) => {
 app.listen(3000);
 ```
 
-💡 **Penjelasan**: Mengurangi ukuran data response (gzip).
+ **Penjelasan**: Mengurangi ukuran data response (gzip).
 
 ---
 
@@ -150,7 +150,7 @@ Secara default Express hanya menangani request sederhana. Untuk parsing data bod
 
 ### 2.1 `body-parser` (built-in mulai Express v4.16)
 
-📌 **Fungsi**: Parsing `JSON` dan `URL-encoded form`.
+ **Fungsi**: Parsing `JSON` dan `URL-encoded form`.
 
 ```js
 import express from "express";
@@ -167,7 +167,7 @@ app.post("/data", (req, res) => {
 app.listen(3000);
 ```
 
-💡 **Penjelasan**: `express.json()` = JSON; `express.urlencoded()` = form-data.
+ **Penjelasan**: `express.json()` = JSON; `express.urlencoded()` = form-data.
 
 ---
 
@@ -175,7 +175,7 @@ app.listen(3000);
 
 ### 3.1 `jsonwebtoken`
 
-📌 **Fungsi**: Autentikasi menggunakan JWT (JSON Web Token).
+ **Fungsi**: Autentikasi menggunakan JWT (JSON Web Token).
 
 ```bash
 npm install jsonwebtoken
@@ -212,7 +212,7 @@ app.listen(3000);
 
 ### 3.2 `bcrypt`
 
-📌 **Fungsi**: Enkripsi password.
+ **Fungsi**: Enkripsi password.
 
 ```bash
 npm install bcrypt
@@ -231,7 +231,7 @@ const match = await bcrypt.compare("123456", hashed);
 console.log(match); // true
 ```
 
-💡 **Penjelasan**: Hashing satu arah yang aman untuk password.
+ **Penjelasan**: Hashing satu arah yang aman untuk password.
 
 ---
 
@@ -239,7 +239,7 @@ console.log(match); // true
 
 ### 4.1 `mongoose`
 
-📌 **Fungsi**: ODM (Object Data Modeling) untuk MongoDB.
+ **Fungsi**: ODM (Object Data Modeling) untuk MongoDB.
 
 ```bash
 npm install mongoose
@@ -261,7 +261,7 @@ await user.save();
 
 ### 4.2 `pg` (PostgreSQL)
 
-📌 **Fungsi**: Query PostgreSQL.
+ **Fungsi**: Query PostgreSQL.
 
 ```bash
 npm install pg
@@ -284,7 +284,7 @@ console.log(result.rows);
 
 ### 4.3 `prisma`
 
-📌 **Fungsi**: ORM modern mendukung PostgreSQL, MySQL, SQLite.
+ **Fungsi**: ORM modern mendukung PostgreSQL, MySQL, SQLite.
 
 ```bash
 npm install prisma
@@ -308,7 +308,7 @@ const user = await prisma.user.create({
 
 ### `multer`
 
-📌 **Fungsi**: Upload file (image, doc, dll).
+ **Fungsi**: Upload file (image, doc, dll).
 
 ```bash
 npm install multer
@@ -336,7 +336,7 @@ app.listen(3000);
 
 ### 6.1 `dotenv`
 
-📌 **Fungsi**: Load variabel environment dari `.env`.
+ **Fungsi**: Load variabel environment dari `.env`.
 
 ```bash
 npm install dotenv
@@ -355,7 +355,7 @@ console.log(process.env.PORT);
 
 ### 6.2 `express-validator`
 
-📌 **Fungsi**: Validasi input request.
+ **Fungsi**: Validasi input request.
 
 ```bash
 npm install express-validator
@@ -384,7 +384,7 @@ app.listen(3000);
 
 ---
 
-💡 **Kesimpulan:**
+ **Kesimpulan:**
 
 * **Basic Middleware**: `morgan`, `cors`, `helmet`, `compression`
 * **Body Parsing**: `express.json`, `express.urlencoded`
@@ -397,7 +397,7 @@ app.listen(3000);
 
 ### 7.1 express-session
 
-📌 Fungsi: Menyimpan session user di server (untuk login state, shopping cart, dll.)
+ Fungsi: Menyimpan session user di server (untuk login state, shopping cart, dll.)
 
 npm install express-session
 Contoh penggunaan:
@@ -415,11 +415,11 @@ res.send(`Dilihat ${req.session.views} kali`);
 });app.listen(3000);
 ```
 
-💡 Penjelasan: Session tersimpan di server, bukan di browser.
+ Penjelasan: Session tersimpan di server, bukan di browser.
 
 ### 7.2 cookie-parser
 
-📌 Fungsi: Parsing cookie dari request.
+ Fungsi: Parsing cookie dari request.
 
 ```bash
 npm install cookie-parser
@@ -441,7 +441,7 @@ res.send("Cookie diset!");
 
 ### 8.1 express-rate-limit
 
-📌 Fungsi: Membatasi jumlah request dari satu IP.
+ Fungsi: Membatasi jumlah request dari satu IP.
 
 ```basic
 npm install express-rate-limit
@@ -459,7 +459,7 @@ message: "Terlalu banyak request, coba lagi nanti."
 
 ### 8.2 hpp (HTTP Parameter Pollution)
 
-📌 Fungsi: Mencegah duplikasi query parameter berbahaya.
+ Fungsi: Mencegah duplikasi query parameter berbahaya.
 
 ```
 npm install hpp
@@ -478,7 +478,7 @@ Jika butuh server-side rendering (SSR):
 
 ### 9.1 pug
 
-📌 Fungsi: Template engine minimalis.
+ Fungsi: Template engine minimalis.
 
 ```bash
 npm install pug
@@ -494,7 +494,7 @@ res.render("index", { title: "Halo", message: "Hello dari Pug!" });
 
 ### 9.2 ejs
 
-📌 Fungsi: Template engine berbasis HTML.
+ Fungsi: Template engine berbasis HTML.
 
 ```bash
 npm install ejs
@@ -512,7 +512,7 @@ res.render("index", { name: "Eko" });
 
 ### 10.1 socket.io
 
-📌 Fungsi: WebSocket untuk chat & notifikasi real-time.
+ Fungsi: WebSocket untuk chat & notifikasi real-time.
 
 ```bash
 npm install socket.io
@@ -537,7 +537,7 @@ server.listen(3000);
 
 ### 11.1 express-async-handler
 
-📌 Fungsi: Menangani async/await error tanpa try-catch berulang.
+ Fungsi: Menangani async/await error tanpa try-catch berulang.
 
 ```
 npm install express-async-handler
@@ -556,7 +556,7 @@ res.json(data);
 
 ### 12.1 swagger-ui-express
 
-📌 Fungsi: Menyediakan dokumentasi API otomatis.
+ Fungsi: Menyediakan dokumentasi API otomatis.
 
 ```bash
 npm install swagger-ui-express swagger-jsdoc
@@ -580,7 +580,7 @@ app.use("/docs", swaggerUi.serve, swaggerUi.setup(specs));
 
 ### 13.1 node-cron
 
-📌 Fungsi: Menjalankan task terjadwal.
+ Fungsi: Menjalankan task terjadwal.
 
 ```bash
 npm install node-cron
@@ -592,12 +592,12 @@ Contoh penggunaan:
 import cron from "node-cron";cron.schedule("*/5 * * * * *", () => {
 console.log("Jalan tiap 5 detik");
 });
-⚡ 14. Performance & Cluster
+ 14. Performance & Cluster
 ```
 
 ### 13.2 pm2
 
-📌 Fungsi: Menjalankan Express dalam mode cluster.
+ Fungsi: Menjalankan Express dalam mode cluster.
 
 ```bash
 npm install pm2 -g
@@ -607,4 +607,4 @@ npm install pm2 -g
 pm2 start server.js -i max
 ```
 
-💡 Memanfaatkan semua core CPU untuk meningkatkan performa.
+ Memanfaatkan semua core CPU untuk meningkatkan performa.

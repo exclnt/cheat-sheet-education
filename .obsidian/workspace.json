@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "2fe9201f44f8d700",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a50c4e8a7557cf2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07bea2280cd38b37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "architecture/next-arsitektur.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "next-arsitektur"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a319088afd53176",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a1c788ca60f653f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3193f3f289fffe2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ef2cf44b4a4c97d3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f722eb515a8a6eda",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f6baa280632907e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "f689d20472c7a9af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52356c4c53d94469",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "react/lazy_suspense.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for lazy_suspense"
+            }
+          },
+          {
+            "id": "aedb95407ede7f9c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "react/lazy_suspense.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from lazy_suspense"
+            }
+          },
+          {
+            "id": "73c1089ae59a6922",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a7f7585deaba5371",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "5aaa7c5da7277d80",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "react/lazy_suspense.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of lazy_suspense"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c3193f3f289fffe2",
+  "lastOpenFiles": [
+    "README.md",
+    "javacsript/array-methods.md",
+    "javacsript/prismajs/cheatset.md",
+    "remove_emojis.js",
+    "javacsript/react/lazy_suspense.md",
+    "javacsript/react",
+    "javacsript",
+    "terminal/fish.md",
+    "terminal",
+    "javacsript/prismajs",
+    "git/ssh-config.md",
+    "git/git-flow.md",
+    "git/git-cheatsheet.md",
+    "git",
+    "javacsript/expressJs/struktur.md",
+    "javacsript/expressJs/mengenal-express.md",
+    "javacsript/expressJs/loginJWT.md",
+    "javacsript/expressJs/library.md",
+    "javacsript/expressJs",
+    "docker/docker-commands.md",
+    "docker",
+    "architecture/next-arsitektur.md",
+    "architecture",
+    "javacsript/Motion.md",
+    "animation"
+  ]
+}

@@ -1,34 +1,34 @@
-## 🔧 DASAR-DASAR PRISMA CLI
+##  DASAR-DASAR PRISMA CLI
 
-### ✅ `npx prisma init`
+###  `npx prisma init`
 
 > Inisialisasi proyek Prisma (buat folder `prisma/` dan file `.env`).
 
-📂 Hasil:
+ Hasil:
 
 * `prisma/schema.prisma`
 * `.env`
 
 ---
 
-### ✅ `npx prisma generate`
+###  `npx prisma generate`
 
 > Menghasilkan Prisma Client berdasarkan `schema.prisma`.
 
-📌 Gunakan setelah mengedit model atau menjalankan migrasi.
+ Gunakan setelah mengedit model atau menjalankan migrasi.
 
 ---
 
-### ✅ `npx prisma migrate dev --name <nama>`
+###  `npx prisma migrate dev --name <nama>`
 
 > Membuat dan menjalankan migrasi di development.
 
-🛠 Fungsi:
+ Fungsi:
 
 * Sinkronisasi skema ke database.
 * Generate Prisma Client.
 
-📝 Contoh:
+ Contoh:
 
 ```bash
 npx prisma migrate dev --name init
@@ -36,39 +36,39 @@ npx prisma migrate dev --name init
 
 ---
 
-### ✅ `npx prisma migrate reset`
+###  `npx prisma migrate reset`
 
 > Menghapus seluruh data & migrasi, lalu ulangi migrasi dari awal.
 
-⚠️ **Hati-hati!** Semua data akan dihapus.
+ **Hati-hati!** Semua data akan dihapus.
 
-📝 Biasanya digunakan saat develop lokal.
+ Biasanya digunakan saat develop lokal.
 
 ---
 
-### ✅ `npx prisma migrate deploy`
+###  `npx prisma migrate deploy`
 
 > Menjalankan semua migrasi di **production** tanpa prompt interaktif.
 
-📦 Cocok untuk CI/CD atau server production.
+ Cocok untuk CI/CD atau server production.
 
 ---
 
-### ✅ `npx prisma db push`
+###  `npx prisma db push`
 
 > Mendorong skema langsung ke database ​**tanpa migrasi**​.
 
-📌 Cocok untuk prototyping atau project kecil.
+ Cocok untuk prototyping atau project kecil.
 
-⚠️ Tidak membuat history migrasi!
+ Tidak membuat history migrasi!
 
 ---
 
-### ✅ `npx prisma db seed`
+###  `npx prisma db seed`
 
 > Menjalankan **script seeding** untuk mengisi data awal.
 
-📝 Harus diatur dulu di `package.json`:
+ Harus diatur dulu di `package.json`:
 
 ```json
 "prisma": {
@@ -84,39 +84,39 @@ npx prisma db seed
 
 ---
 
-### ✅ `npx prisma studio`
+###  `npx prisma studio`
 
 > Membuka **GUI antarmuka visual** untuk melihat dan mengedit data database.
 
-🖼 Sangat membantu untuk debug dan eksplorasi data.
+ Sangat membantu untuk debug dan eksplorasi data.
 
 ---
 
-### ✅ `npx prisma format`
+###  `npx prisma format`
 
 > Merapikan format file `schema.prisma`.
 
-✨ Mirip `prettier` untuk Prisma.
+ Mirip `prettier` untuk Prisma.
 
 ---
 
-### ✅ `npx prisma validate`
+###  `npx prisma validate`
 
 > Mengecek apakah `schema.prisma` valid.
 
-📌 Cocok untuk step CI atau sebelum deploy.
+ Cocok untuk step CI atau sebelum deploy.
 
 ---
 
-### ✅ `npx prisma introspect`
+###  `npx prisma introspect`
 
 > Membaca struktur dari database yang sudah ada dan generate model Prisma-nya.
 
-🧠 Cocok untuk project yang sudah punya database lama.
+ Cocok untuk project yang sudah punya database lama.
 
 ---
 
-## 🔁 Ringkasan Praktis
+##  Ringkasan Praktis
 
 | Command               | Kapan digunakan       | Penjelasan Singkat            |
 | ----------------------- | ----------------------- | ------------------------------- |
